@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.btn{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    font-size: 40px !important;
+}
+.numbers{
+    border: 1px solid goldenrod !important;
+}
+.numbers:hover{
+    background-color: rgb(28, 139, 72) !important;
+}
+
+.equal{
+    border: 1px solid red !important;
+}
+.equal:hover{
+    background-color: antiquewhite;
+}
+.operator{
+    border: 1px solid rgb(120, 192, 19) !important;
+}
+.operator:hover{
+    background-color: crimson !important;
+}
+.clear{
+    border: 1px solid blue !important;
+}
+.clear:hover{
+    background-color: aqua !important;
+}
+.decimal{
+    border: 1px solid cyan !important;
+}
+.decimal:hover{
+    background-color: deepskyblue !important;
+}
