@@ -7,8 +7,8 @@ body{
     height: 100vh;
 }
 .btn{
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     margin: 10px;
     font-size: 40px !important;
 }
@@ -42,4 +42,25 @@ body{
 }
 .decimal:hover{
     background-color: deepskyblue !important;
+}
+.upperrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.screen{
+    border: 1px solid greenyellow;
+    height: 70px;
+    width: 260px;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.currentScreen{
+    font-size: 32px;
+}
+.previousScreen{
+    font-size: 20px;
+    margin-bottom: 10px;
 }
