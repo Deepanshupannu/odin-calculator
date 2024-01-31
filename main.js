@@ -34,6 +34,12 @@ document.addEventListener("DOMContentLoaded",function(){
         previousScreen.textContent=previousValue
 
     })
+    equal.addEventListener("click",function(){
+        calculate()
+        previousScreen.textContent='';
+        currentScreen.textContent=previousValue;
+
+    })
 })
 
 function handleNumbers(num){
@@ -50,3 +56,27 @@ function handleOperators(op) {
 
     
 }
+
+function calculate(){
+    previousValue=Number(previousValue);
+    currentValue=Number(currentValue);
+
+    if (operator==="+") {
+        previousValue+=currentValue;
+    }else if(operator==="-"){
+        previousValue-=currentValue;
+    }else if(operator==="*"){
+        previousValue*=currentValue;
+    }else{
+        previousValue/=currentValue;
+    }
+    // previousValue=roundNumber(previousValue);
+    previousValue=previousValue.toString();
+    currentValue=previousValue.toString();
+
+}
+
+// function roundNumber(num){
+//   return   Math.round(num*1000)/1000
+
+// }

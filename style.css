@@ -23,7 +23,7 @@ body{
     border: 1px solid red !important;
 }
 .equal:hover{
-    background-color: antiquewhite;
+    background-color: antiquewhite !important;
 }
 .operator{
     border: 1px solid rgb(120, 192, 19) !important;
@@ -55,6 +55,7 @@ body{
     margin: 10px;
     display: flex;
     justify-content: flex-end;
+    overflow: hidden;
 
 }
 .currentScreen{
